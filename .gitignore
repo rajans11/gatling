@@ -1,0 +1,23 @@
+gradle-wrapper.properties
+# IntelliJ
+.idea/
+*.eml
+*.iml
+*.iws
+*.ipr
+classes/
+# Gradle
+.gradle/
+build/
+out/
+gradle/wrapper/**
+!gradle/findbugs-exclude.xml
+!gradle/checkstyle-exclude.xml
+gradlew*
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+*.log
+*.zip

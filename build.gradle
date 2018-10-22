@@ -1,0 +1,17 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.7.1"
+}
+
+wrapper {
+    gradleVersion = '4.10.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.4'
+}
